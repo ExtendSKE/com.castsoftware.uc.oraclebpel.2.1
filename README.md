@@ -27,3 +27,17 @@ http://doc.castsoftware.com/display/DOC82/Download+your+CAST+AIP+Extensions
 For download the Extension :
 https://extend.castsoftware.com
 
+Quality Rules:-
+1.  Checking Partner link name is unique in same scope
+2.  Checking Variable name is unique in same scope
+3.  Checking Partner link role exist or not
+3.  Checking Event handler contains Atleast-one Alarm event or not
+4.  Checking reply tag for conflict
+5.  Checking Correlation set name for uniqueness 
+6.  Checking variable used inside from and to tag  should be defined variable
+7.  Checking Variable name exist '.' or not (special characters checker)
+8.  Checking Variable type exist or not
+9.  Checking Operation name should be one in a invoke activity
+10. Checking FaultHandler contains catch or catchALL activity inside it
+11. Checking inside flow tag whether link name is unique or not
+12. Checking if variable attribute is present inside onevent then messsagetype or element attribute must be defined
