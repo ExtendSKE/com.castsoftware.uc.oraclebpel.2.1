@@ -41,3 +41,5 @@ Quality Rules:-
 10. Checking FaultHandler contains catch or catchALL activity inside it
 11. Checking inside flow tag whether link name is unique or not
 12. Checking if variable attribute is present inside onevent then messsagetype or element attribute must be defined
+13. Checking at least one catch or catch=all inside fault handler
+14. Checking CompensatScope should be used inside faulthandler
